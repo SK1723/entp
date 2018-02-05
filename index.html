@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+    <head>
+        
+        <title>Boost Linguistics</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=No">
+        
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <style type="text/css">
+            
+            body{
+
+                font-family: 'Rubik', sans-serif;
+
+            }
+
+            .open-sans{
+
+                font-family: "open-sans";
+
+            }
+
+            #nav{
+
+                width: 100%;
+                float: left;
+                margin: 0 0 1em 0;
+                padding: 0;
+                color: #f16e3a;
+
+            }
+
+
+            .add-spacing{
+
+                padding: 20px 0;
+
+            }
+
+
+            li{
+
+                float: right;
+                display: block;
+                padding: 8px 8px 5px;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            a{
+
+                text-decoration: none;
+
+            }
+
+            a hover{
+
+                text-decoration: none;
+
+            }
+
+            button hover{
+
+                text-decoration: none;
+
+            }
+
+
+            #sign-up{
+
+                border-radius: 100px;
+                width: 105px;
+                height: 32px;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: #f16e3a;
+
+            }
+
+            .Boost-master-logo_gray{
+
+                width:113px;
+                height:52px;
+                float: left;
+                padding: 8px 15px 3px;
+                display: inline-block; 
+
+            }
+
+
+            .jumbotron{
+
+                /**temporary**/
+                background-color: #eeeeee;
+
+                background-image: url(hero.png);
+                width: 100%;
+                position: relative;
+                float: left;
+                padding: 0;
+                margin:0;
+
+            }
+
+            h1{
+
+                font-size: 48px;
+                padding: 0;
+
+            }
+
+            h3{
+
+                padding: 0;
+                font-size: 30px;
+                font-weight: bold;
+
+            }
+
+            .vertically-centered-indented{
+
+
+                padding: 60px 0 40px;
+                margin-left: 50px;
+
+
+            }
+
+            .jumbotron-buttons{
+
+                border-radius: 37px;
+                font-size: 30px;
+                font-weight: 400;
+                padding: .1em 1em;
+
+            }
+
+            .clear-buttons{
+
+                background-color: transparent;
+                border-color: white;
+
+            }
+
+            .icon-bg{
+
+                background-image: linear-gradient(to right, #f19200, #f16e3a);
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin:0;
+                padding: 60px 0;
+
+            }
+
+
+            .pen-icon{
+
+                width: 110px;
+                height: 121px;
+
+            }
+
+            .computer-icon{
+
+                width: 130px;
+                height: 121px;
+            }
+
+            table{
+
+                width: 90%;
+
+            }
+
+            td{
+
+                padding: 5px 40px;
+
+            }
+
+
+            .understand-boost{
+
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin:0;
+                padding: 40px 0;
+
+            }
+
+            h2{
+
+                font-size: 36px;
+                font-weight: 600;
+
+            }
+
+            p{
+
+                font-size: 20px;
+                font-family: "Open-Sans";
+
+            }
+
+            .understand-boost-columns{
+
+                width: 50%;
+
+            }
+
+            .partners-bg{
+
+                background-color: #fafafa;
+                text-align: center;
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 20px 0 60px 0;
+
+            }
+
+            .create-your-account{
+
+                background-color: #f16e3a;
+                text-align: center;
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 40px 0 40px 0;
+
+            }
+
+            .create-account-button{
+
+                border-radius: 37px;
+                font-size: 16px;
+                font-weight: 500;
+                padding: .75em 3em;
+
+            }
+
+            #fine-print{
+
+                font-size: 10px;
+                font-family: "Open-Sans";
+
+            }
+
+            .bottom-links{
+
+                text-align: center;
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 20px 0 20px 0;
+                font-family: 
+
+            }
+
+            #link-headings{
+
+                font-weight: bolder;
+
+            }
+
+            .copyright{
+
+                padding: 20px 0 10px 0;
+
+            }
+
+            .footer-logos{
+
+                width: 40px;
+                height: 30px;
+                border-radius: 100%;
+                padding: 0 5px;
+
+            }
+
+            .footer-padding{
+
+                padding-bottom: 10px;
+
+            }
+
+            .orange-font{
+
+                color: #f16e3a;
+
+            }
+
+            .white-font{
+
+                color: white;
+
+            }
+
+            .another-orange{
+
+                color: #f19201;
+
+            }
+
+            .footer-font{
+
+                font-family: "Open-Sans";
+                color: #f16e3a;
+
+            }
+
+            hr{
+
+                width: 30%;
+                color: orange;
+
+            }
+
+            .members-bg{
+
+                text-align: center;
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 60px 0 80px 0;
+
+            }
+
+            .advisors-bg{
+
+                text-align: center;
+                width: 100%;
+                float: left;
+                margin:0;
+                padding: 60px 0 80px 0;
+
+            }
+
+            #table-width{
+
+                width: 90%;
+
+            }
+
+            #column-width{
+
+                width: 40%;
+                padding: 20px 10px;
+            }
+
+            #large-font{
+
+                font-size: 36px;
+
+            }
+
+            .pic-padding{
+
+                padding: 20px 10px;
+                margin: 0;
+
+            }
+
+            input{
+
+                width: 300px;
+                height: 44px;
+                border-radius: 8px;
+                background-color: rgba(255, 255, 255, 0.9);
+                border: solid 0.8px #979797;
+
+            }
+
+            .lets-chat{
+
+                width: 216px;
+                height: 65px;
+                border-radius: 100px;
+                background-color: #fafafa;
+                background-color: var(--white);
+                margin-left: 42px;
+
+            }
+
+            .rubik{
+
+                font-family: 'Rubik', sans-serif;
+
+            }
+
+            .trusted-by{
+
+                /**temporary**/
+                border-style: solid;
+                border-color: black;
+
+                width: 100%;
+                height: 140px;
+
+            }
+
+        </style>
+  
+    
+    </head>
+
+    <body>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+          <a href=""><img src="boost/boost-master-logo.png" class="Boost-master-logo_gray navbar-brand d-flex mr-auto"></a> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="navbar-collapse collapse" id="collapsingNavbar3">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Editor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link orange-font" style="color: #f16e3a;" href="#">API</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link orange-font" style="color: #f16e3a;" href="#">Sign In</a>
+              </li>
+              <li class="nav-item">
+                  <button class="nav-link my-2 my-sm-0" type="button" id="sign-up"><a class="white-font" href = "">Sign up</a></button>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+
+      <section class="jumbotron" style="margin-bottom: 0px;">
+        
+        <div class="vertically-centered-indented">
+          
+          <h1 class="add-spacing">Empower your users with AI</h1>
+          <h3>Integrate the Boost Engine today</h3>
+          <form>
+              Your name:<br>
+              <input class="add-spacing" type="name" name="name">
+              <br>
+              Work email:<br>
+              <input class="add-spacing" type="email" name="email">
+              <br>
+              Work phone:<br>
+              <input class="add-spacing" type="phone" name="phone">
+              <br><br>
+              <input class="lets-chat" type="submit" value="Let's chat">
+          </form> 
+
+        </div>
+        
+
+      </section>
+
+      <section class="understand-boost">
+        
+        <table align="center">
+
+          <tr>
+            
+            <td class="understand-boost-columns">
+
+              <h3 class="orange-font add-spacing">Use artificial intelligence to enhance your users’ creativity</h3>
+              <p>Supercharge your users ability with the Boost Engine and help them improve their language to elicit a specific tone or emotion.</p>
+              <p><a href="" class="orange-font rubik">Watch the video</a></p>
+
+            </td>
+
+            <td class="understand-boost-columns"><img src="squad.png"></td>
+
+          </tr>
+
+        </table>
+
+          <hr>
+
+        <table align="center">
+
+          <tr>
+            
+            <td class="understand-boost-columns">
+
+              <h3 class="orange-font add-spacing">Headline</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas. Vestibulum eget feugiat tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas</p>
+
+            </td>
+
+            <td class="understand-boost-columns"><img src="headline.png"></td>
+
+          </tr>
+
+          <tr>
+            
+            <td class="understand-boost-columns">
+
+              <h3 class="orange-font add-spacing">Headline</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas. Vestibulum eget feugiat tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas</p>
+
+            </td>
+
+            <td class="understand-boost-columns"><img src="headline.png"></td>
+
+          </tr>
+
+          <tr>
+            
+            <td class="understand-boost-columns">
+
+              <h3 class="orange-font add-spacing">Headline</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas. Vestibulum eget feugiat tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae eros at nisi pulvinar egestas</p>
+
+            </td>
+
+            <td class="understand-boost-columns"><img src="headline.png"></td>
+
+          </tr>
+
+
+
+
+        </table>
+
+  
+
+      </section>
+
+      <section class="create-your-account">
+        
+        <h2 class="white-font add-spacing">The start of a brilliant relationship</h2>
+        <p class="white-font">Speak with a Boost Engine integration specialist to start integrating the Boost Enginge today</p>
+        <button type="button" class="create-account-button"><a class="orange-font" href = "">I want to empower my users</a></button>
+
+      </section>
+
+      <section class="partners-bg">
+        
+        <h2 class="add-spacing">Trusted by</h2>
+        <table align="center">
+          
+          <tr>
+            
+            <td><img class="trusted-by" src=""></td>
+            <td><img class="trusted-by" src=""></td>
+            <td><img class="trusted-by" src=""></td>
+
+          </tr>
+
+        </table>
+
+      </section>
+
+      <footer class="bottom-links">
+        
+        <table align="center" class="orange-font">
+          
+          <tr align="left" id="link-headings" class="footer-padding">
+            
+            <td id="bottom-td">Pages</td>
+            <td>Resources</td>
+            <td>Legal</td>
+            <td>Join the community</td>
+
+          </tr>
+
+          <tr align="left" class="footer-padding">
+            
+            <td><a class="orange-font" href = "">Home</a></td>
+            <td><a class="orange-font" href = "">Boost Blog</a></td>
+            <td><a class="orange-font" href = "">Privacy Policy</a></td>
+            <td rowspan="2">
+              
+              <a href=""><img class = "footer-logos" src="boost/facebook-icon.png"></a>
+              <a href=""><img class = "footer-logos" src="boost/twitter-icon.png"></a>
+              <a href=""><img class = "footer-logos" src="boost/linkedin-icon.png"></a>
+
+            </td>
+
+          </tr>
+
+          <tr align="left" class="footer-padding">
+            
+            <td><a class="orange-font" href = "">Boost my content</a></td>
+            <td><a class="orange-font" href = "">Videos</a></td>
+            <td><a class="orange-font" href = "">Terms of Use</a></td>
+            <td></td>
+
+          </tr>
+
+          <tr align="left" class="footer-padding">
+            
+            <td><a class="orange-font" href = "">Integrate Boost AI</a></td>
+            <td><a class="orange-font" href = "">Tutorials</a></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+
+        </table>
+
+        <table class = "copyright" align="center">
+          
+          <tr><th class="footer-font">Boost Linguistics &copy;</th></tr>
+          <tr><td class="footer-font">Made with <img src="boost/love.png"> in Philly</td></tr>
+        
+        </table>
+
+      </footer>
+ 
+
+    </body>
